@@ -1,0 +1,148 @@
+/* Basic style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abril Fatface", serif;
+}
+/* ----navbar ----*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:skyblue;
+    padding: 30px;
+    align-items: center;
+}
+.Nav-itmes ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.Nav-itmes ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.bg-image{
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(255, 0, 191, 0.9)), url('../img/5.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.hero{
+    display: flex;
+     
+}
+.hero h1 {
+   padding-left: 20px;
+    color: rgb(119, 0, 255);
+     margin-bottom: 40px;
+}
+.hero p{
+    text-align: center;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253, 251, 251);
+    
+}
+.main h2{
+    border: 4px solid rgb(201, 67, 67);
+    margin-top: 20px;
+    padding: 50px;
+    font-size: 15px;
+    background-color: rgb(26, 62, 140);
+    color:green;
+    border-radius: 30px;
+    
+}
+.main p{
+     border: 4px solid rgb(205, 58, 154);
+     margin-top: 40px;
+     padding: 30px;
+     background-color: aquamarine;
+     color: purple;
+     border-radius: 30px;
+}
+.main h3{
+      border: 4px solid rgb(201, 67, 67);
+      margin-top: 20px;
+      padding: 50px;
+      font-size: 15px;
+      background-color: rgb(24, 88, 24);
+      border-radius: 30px;
+}
+button:hover{
+    background-color: rgb(57, 144, 23);
+    color: rgb(128, 0, 0);
+}
+button{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: green;
+    font-size: 20px;
+    border: 2px solid green;
+}
+.conten{
+    background-color: rgb(18, 102, 81);
+    margin-top: 20px;
+    padding: 60px;
+    color: white;
+}
+.conten h4{
+    text-align: center;
+    font-size: 40px;
+}
+.conten{
+    text-align: center;
+    font-size: 20px;
+}
+.style button:hover{
+    background-color: rgba(7, 36, 7, 0.599);
+    color: brown:  
+}
+.signin{
+    border: 2px solid white;
+    background-color: white;
+    color: green;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+/* manu desing */
+.logo-desing{
+    margin-top: 60px;
+}
+.manu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 37, 37);
+    color: white;
+}
+.manu p{
+     padding-top: 50px;
+     color: white;
+}
+.manu p b{
+    color: green;
+}
+.manu ul li a{
+    color: white;
+}
+.footer-style{
+    background-color: rgb(65, 62, 62);
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.fooder-style2{
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+}
